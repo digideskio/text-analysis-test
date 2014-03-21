@@ -1,0 +1,22 @@
+{
+  "name": "text-analysis-test",
+  "version": "0.0.0",
+  "description": "text-analysis-test ==================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morganherlocker/text-analysis-test.git"
+  },
+  "author": "morganherlocker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morganherlocker/text-analysis-test/issues"
+  },
+  "homepage": "https://github.com/morganherlocker/text-analysis-test",
+  "dependencies": {
+    "text-statistics": "^0.1.1"
+  }
+}
