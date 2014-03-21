@@ -10,7 +10,7 @@ files.forEach(function(file){
   console.log('==================')
   console.log('Name: '+ file.split('.')[0])
   var grade = ts.fleschKincaidGradeLevel(text)
-  var sentiment = analyze(text).score
+  var sentiment = analyze(text).comparative.toFixed(3) * 1000
   console.log('grade: '+grade)
   console.log('sentiment: '+sentiment)
 })
